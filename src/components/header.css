@@ -9,6 +9,7 @@ header {
   border:none;
   white-space:nowrap;
   position:absolute;
+  width:100vw;
 }
 
 #logowrapper {
@@ -30,22 +31,18 @@ header {
 }
 
 .logotext.tail {
-  left:20px;
-  bottom:4px;
 }
-.logotext.f {
+.logotext.head {
   z-index: 2;
-  font-size: 3.2em;
 }
 @keyframes text_glow {
   0%   {text-shadow: 1px 1px 3px white;}
-  50%  {text-shadow: 3px 3px 9px white;}
+  50%  {text-shadow: 6px 6px 18px white;}
   100% {text-shadow: 1px 1px 3px white;}
 }
 #logoman {
     display:inline;
   position: relative;
-  right: 280px;
   top: 6px;
   z-index: 1;
   height: 40px;
@@ -55,6 +52,6 @@ header {
   animation-iteration-count: 1;
 }
 @keyframes run_in {
-    from {top: 6px; right:350px;}
-    to {top: 6px;right:280px}
+    from {top: 6px; right:550px;}
+    to {top: 6px;right:0px}
 }
