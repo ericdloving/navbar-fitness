@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,400;1,600&display=swap');
+
 .tabbar {
        width: 100vw;
        animation: slide 2s;
@@ -15,12 +17,13 @@
 
 
 .tab {
+    font-family: 'Fira Sans Condensed', sans-serif;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
     height: 2em;
-    width: 20vw;
+    width: 20vw; /*need to change if tab count changes*/
     font-family: sans-serif;
-    font-size: 1.2em;
+    font-size: 1em;
     white-space:nowrap;
     border-left: 1px solid black;
     border-bottom: 2px solid black;
@@ -28,7 +31,9 @@
 }
 .tab.active {
     border-bottom: none;
-    font-weight: bolder;
+    font-style: italic;
+    font-weight:bold;
+    font-size:1.1em;
 }
 
 #tab1 {
